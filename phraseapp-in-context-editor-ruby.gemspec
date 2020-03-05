@@ -27,7 +27,7 @@ Gem::Specification.new do |s|
     s.add_dependency('json', '>= 1.7', '< 3')
   end
   s.add_dependency('i18n', '>= 0.6')
-  s.add_dependency('phraseapp-ruby', '~> 1.3')
+  s.add_dependency('phraseapp-ruby', '>= 1.3')
   s.add_dependency('request_store', '~> 1.3')
   s.add_development_dependency('rspec', '~> 3.2')
   s.add_development_dependency('webmock', '~> 1.21')
